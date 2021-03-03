@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  background-image: url(https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-size: cover;
+  height: 100vh;
+}
+
+.PokeGridContainer {
+  border: solid 3px greenyellow;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Card {
+  background-color: rgba(214, 248, 162, 0.548);
+  padding: 10px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.Card-inner {
+  background-color: white;
+  position: relative;
+  height: 190px;
+}
+
+.Card-inner img {
+  position: absolute;
+  top: -45px;
+  left: 55px;
+  width: 110px;
+}
+
+.info-inner {
+  margin-top: 50px;
+  position: absolute;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info p {
+  background-color: rgb(243, 197, 197);
+  margin-bottom: 3px;
+  width: 40%;
+  border-radius: 30px;
+  padding: 3px;
+}
+
+h3 {
+  font-size: 100px;
+  font-weight: bold;
+  color: beige;
+}
