@@ -9,8 +9,7 @@ function AuthButton() {
     return (
         <div>
             { user === 'user' 
-            ? <div> 
-            <p>Welcome Trainer</p>              
+            ? <div>            
             <button onClick={() => singOut(() => {})}>
                 Logout
             </button>
