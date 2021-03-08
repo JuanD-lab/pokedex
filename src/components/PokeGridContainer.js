@@ -9,8 +9,7 @@ function PokeGridContainer({query}) {
   useEffect(() => {
     const promise = axios(`https://pokeapi.co/api/v2/type/${query}`)
     promise.then((response) => {
-      setDatas(response.data.pokemon.slice(0,10))
-      console.log(response.data);
+      setDatas(response.data.pokemon.slice(0,4))
     })
   }, [query])
 
@@ -20,7 +19,7 @@ function PokeGridContainer({query}) {
   
   return (
       <div className="PokeGridContainer">
-        {datas.length > 0 && arrayCharactersMap}
+        {datas.length > 0 ? arrayCharactersMap : "No pokemons here"}
       </div>
     )
 }
