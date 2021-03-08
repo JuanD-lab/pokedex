@@ -4,7 +4,6 @@ import {
   HashRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import axios from "axios";
 import { ProvideAuth } from "./provider/Auth";
