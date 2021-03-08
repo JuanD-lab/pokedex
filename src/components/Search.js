@@ -34,7 +34,7 @@ function Search({onSearch, options}) {
           ref={register}
           placeholder="Search by Id or name type"
         />
-      <button><img width="80px" alt="" src={"http://www.pngall.com/wp-content/uploads/5/Pokemon-Go-Logo-PNG-Download-Image.png"}/></button>
+      <button><img width="80px" alt="Search" src={"http://www.pngall.com/wp-content/uploads/5/Pokemon-Go-Logo-PNG-Download-Image.png"}/>Search</button>
       </div>
     </form>
     <select onChange={onChangeOption}>
