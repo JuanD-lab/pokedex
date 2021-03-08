@@ -16,7 +16,7 @@ import "../App.css";
                     <div className="decoration decoration-squirtle"></div>
                     <div>
                         {user ? <Redirect to="/"/> :
-                            <><h2>You are not logged-in</h2>
+                            <><h2>Welcom!</h2>
                             <button onClick={() => singIn(() => {
                                 history.push("/pokedex")
                             })}>Login</button></>}
